@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color:#ba181b;
+}
+.container{
+    max-width: 500px;
+    padding-top: 55px;
+    text-align: center;
+    margin: auto;
+}
+.perfil{
+    width: 230px;
+    height: 230px;
+    border: solid 3px #ba181b;
+    padding: 3px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 80% 25%;
+}
+a:link {
+    color: aliceblue;
+}
+a:visited {
+    color: aliceblue;
+}
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 65%;
+    margin: 0 auto;
+    gap: 20px;
+    margin-top: 20px;
+}
+.links a {
+    background-color: #ba181b;
+    color: aliceblue;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    border: solid 2px #ba181b;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+p {
+    font-weight: 300;
+    padding-top: 13px;
+}
+.sociais {
+    text-align: center;
+    margin: 30px;    
+}
+.sociais ul li {
+    display: inline-block;
+    margin: 8px;
+
+}
+img {
+    width: 30px;
+}
+
+@media screen and (max-width: 500px){
+    html {
+        max-height: 0;
+    }
+    .container {
+        padding-top: 10%;
+        max-height: ; 
+    }
+    .links li {
+        border-radius: 6px;
+        width: 270px;
+        
+    }
+    .perfil{
+        width: 200px;
+        height: 200px;
+    }
+}
